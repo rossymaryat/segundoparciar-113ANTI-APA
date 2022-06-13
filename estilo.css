@@ -1,0 +1,60 @@
+*{
+	font-size: 30px;
+	color: purple;
+	
+}
+h1{
+	color:white;
+}
+H2{
+	color: white;
+}
+body{
+	background-color:black;
+}
+@media (max-width: 700px){
+	header{
+		flex-direction: column;
+	}
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	min-height:80px;
+	background: pink;
+	align-items: center ;
+	padding: 5px;
+	margin-left: 7spx;
+	background: pink;
+	font-size:10px;
+}
+a{
+	text-decoration: none;
+	color: purple;
+	font-family:Comic Sans MS;
+	font-size:20px;
+
+}
+nav a{
+	padding-right: 6px;
+}
+nav a:hover{
+	color: white;
+
+}
+img{
+	width: 40%;
+	padding:10px
+}
+p{
+	color: pink;
+}
+li{
+	color: #F08080;
+}
+th{
+	color:orange;
+}
+table{
+	border-color:red;
+}
